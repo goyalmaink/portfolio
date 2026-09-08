@@ -17,11 +17,14 @@ export function About() {
   return (
     <section id="about" className="bg-beige py-24 md:py-36">
       <div className="container-x">
-        <SectionHeading index="01" label="About" title="Engineering meets creative craft." />
-
+        <SectionHeading
+          index="01"
+          label="About"
+          title="Software with purpose."
+        />
         <RevealText
           as="p"
-          text="I'm a full-stack engineer who cares as much about how software feels as how it scales. From a first line of C++ to shipping a 13+ product-line financial super-app at EY — here's the through-line."
+          text="I'm a full-stack software engineer focused on building scalable and reliable applications. My experience spans frontend development, backend systems, and enterprise products."
           className="mt-8 max-w-2xl font-inter text-lg leading-relaxed text-charcoal/70"
         />
 

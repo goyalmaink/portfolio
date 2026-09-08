@@ -48,7 +48,13 @@ export const SKILL_GROUPS: SkillGroup[] = [
   },
   {
     category: "AI & Emerging",
-    blurb: "Intelligence woven into product.",
-    skills: ["GenAI", "NLP", "Machine Learning", "Gemini API", "Prompt Design"],
+    blurb: "Exploring AI-driven applications and intelligent systems.",
+    skills: [
+      "Generative AI",
+      "NLP",
+      "Machine Learning",
+      "Gemini API",
+      "Prompt Engineering",
+    ],
   },
 ];

@@ -21,10 +21,10 @@ export function Hero() {
       id="top"
       className="relative flex min-h-[100svh] flex-col justify-center overflow-hidden bg-orange pb-10 pt-28 text-charcoal"
     >
-      {/* Giant background typography */}
+      {/* Giant background typography — desktop only */}
       <motion.div
         style={{ y: yType, opacity }}
-        className="pointer-events-none absolute inset-0 z-0 flex flex-col items-center justify-center px-2"
+        className="pointer-events-none absolute inset-0 z-0 hidden flex-col items-center justify-center px-2 md:flex"
         aria-hidden
       >
         <span className="whitespace-nowrap font-display text-[17vw] font-bold leading-[0.82] tracking-tightest text-offwhite sm:text-[20vw] md:text-[22vw] lg:text-[24vw]">
@@ -35,8 +35,17 @@ export function Hero() {
         </span>
       </motion.div>
 
+      {/* Name heading — mobile only */}
+      <div className="container-x relative z-20 md:hidden" aria-hidden>
+        <h2 className="font-display text-[16vw] font-bold leading-[0.85] tracking-tightest text-offwhite">
+          MAYANK
+          <br />
+          GOEL
+        </h2>
+      </div>
+
       {/* Overlaid content grid */}
-      <div className="container-x relative z-20 mt-auto grid grid-cols-1 items-end gap-8 pt-8 md:grid-cols-3">
+      <div className="container-x relative z-20 grid grid-cols-1 items-end gap-8 pt-8 md:mt-auto md:grid-cols-3">
         {/* Left */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
