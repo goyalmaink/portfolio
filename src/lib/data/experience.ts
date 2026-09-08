@@ -12,16 +12,19 @@ export const EXPERIENCE: ExperienceItem[] = [
     role: "Software Developer Intern",
     company: "EY (Ernst & Young)",
     period: "Feb 2026 — Present",
+
     summary:
-      "Full-stack engineer on the ABCD platform — Aditya Birla Capital's 13+ product-line financial super-app.",
+      "Full-stack engineer working on the ABCD platform, a 13+ product-line financial super-app for Aditya Birla Capital.",
+
     highlights: [
-      "Owned the Health Insurance journey end-to-end — React/Next.js customer flow and its Kotlin/Spring WebFlux orchestrator (180+ commits).",
-      "Contributed 438 commits to a shared Storybook design system powering every product on the platform.",
-      "Built Gold Loan, Fixed Deposit & Mutual Fund, Credit Score, and Digital Gold journeys in Next.js.",
+      "Owned the Health Insurance journey across the React/Next.js frontend and Kotlin/Spring WebFlux orchestrator, with 180+ commits.",
+      "Contributed 438 commits to a shared Storybook design system used across the platform.",
+      "Developed Gold Loan, Fixed Deposit & Mutual Fund, Credit Score, and Digital Gold journeys using Next.js.",
       "Integrated 25+ downstream REST APIs through a reactive Backend-for-Frontend (BFF) layer.",
-      "Instrumented platform-wide analytics with a declarative GTM / BigQuery event-mapping layer.",
-      "Shipped into a ~179-microservice platform with Docker, Kafka, MongoDB, Helm on GCP.",
+      "Implemented platform-wide analytics using a declarative GTM and BigQuery event-mapping layer.",
+      "Worked within a ~179-microservice ecosystem using Docker, Kafka, MongoDB, Helm, and GCP.",
     ],
+
     stack: [
       "React 19",
       "Next.js 16",
@@ -36,40 +39,73 @@ export const EXPERIENCE: ExperienceItem[] = [
       "GCP",
     ],
   },
+
   {
     role: "Backend Developer Intern",
     company: "TechChefz Digital",
     period: "Dec 2025 — Feb 2026",
-    summary: "Built RESTful services with a clean MVC architecture.",
+
+    summary:
+      "Worked on backend services and REST APIs using Node.js, Express.js, and MongoDB.",
+
     highlights: [
-      "Developed RESTful CRUD APIs with Node.js, Express.js, and MongoDB (Mongoose).",
-      "Designed schema models, controllers, and routes with validation and structured error handling.",
-      "Tested and debugged APIs with Postman for consistent contracts and data integrity.",
+      "Developed RESTful CRUD APIs using Node.js, Express.js, and MongoDB with Mongoose.",
+      "Designed database schemas, controllers, and routes with validation and structured error handling.",
+      "Tested and debugged APIs using Postman to maintain reliable API contracts and data integrity.",
     ],
-    stack: ["Node.js", "Express.js", "MongoDB", "Mongoose", "Postman"],
+
+    stack: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "Postman",
+    ],
   },
   {
     role: "Software Developer Intern",
     company: "Arbro Pharmaceutical",
     period: "Jul 2025 — Aug 2025",
-    summary: "Real-time internal systems and backend performance work.",
+    summary:
+      "Developed internal web applications and a Lead Management System using C#, ASP.NET, AJAX, and SQL Server.",
     highlights: [
-      "Built a real-time internal chat with ASP.NET, C#, and SignalR — 60% faster communication.",
-      "Devised a skill-based ticket-routing filter that cut task misallocation by 30%.",
-      "Optimized C# services and SQL queries, cutting page load time by 40%.",
+      "Developed a Lead Management System using C#, ASP.NET, AJAX, and SQL Server to manage and track employee leads and workflows.",
+      "Built an admin panel to assign and allocate leads and tasks to employees across the organisation.",
+      "Integrated REST APIs into form controls, replacing static dropdown values with dynamically fetched and updated data.",
+      "Implemented dynamic dropdowns and dependent form fields to improve data accuracy and reduce manual input.",
+      "Developed a real-time internal chat system using ASP.NET, C#, and SignalR, improving communication speed by 60%.",
+      "Optimized C# services and SQL queries, reducing page load time by 40%.",
     ],
-    stack: ["ASP.NET", "C#", "SignalR", "SQL Server", "jQuery", "AJAX"],
+    stack: [
+      "C#",
+      "ASP.NET",
+      "AJAX",
+      "SignalR",
+      "SQL Server",
+      "REST APIs",
+      "jQuery",
+    ],
   },
+
   {
     role: "Frontend Developer Intern",
     company: "Clickmecha",
     period: "Apr 2025 — Jun 2025",
-    summary: "Frontend and real-time data integrations.",
+
+    summary:
+      "Worked on frontend development and real-time data integration for internal applications.",
+
     highlights: [
-      "Integrated REST APIs for real-time data flow and state — 35% faster response.",
-      "Connected MongoDB for live updates, improving decision speed by 25%.",
-      "Built an Android admin dashboard, cutting training time by 50%.",
+      "Integrated REST APIs for real-time data flow, improving application response time by 35%.",
+      "Integrated MongoDB for live data updates, improving decision-making speed by 25%.",
+      "Developed an Android admin dashboard that reduced training time by 50%.",
     ],
-    stack: ["React.js", "Node.js", "Express.js", "MongoDB"],
+
+    stack: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
   },
 ];
