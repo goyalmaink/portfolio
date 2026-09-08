@@ -173,3 +173,4 @@ versions, so there's no "clean" pin to jump to. Keep Next.js on the latest patch
 (`npm i next@latest eslint-config-next@latest`) and run `npm audit fix` for transitive `postcss`/`sharp`.
 ```
 # Portfoltio
+# portfolio
